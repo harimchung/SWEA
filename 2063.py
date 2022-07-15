@@ -1,0 +1,5 @@
+i = int(input())
+j = int((i-1)/2)
+a = list(map(int, input().split()))
+a.sort()
+print(a[j])

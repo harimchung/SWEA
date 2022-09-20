@@ -1,0 +1,6 @@
+# a = hex(10)
+# print(a)
+# b = int(a, 2)
+# print(b)
+c = list("aaaa")
+print(c)

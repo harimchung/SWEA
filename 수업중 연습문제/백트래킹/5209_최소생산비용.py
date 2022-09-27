@@ -21,7 +21,7 @@ T = int(input())
 for tc in range(1, T+1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
-    min_V = 99*50
+    min_V = 100*15
     visit = [0] * N
     select(arr, 0, N, 0)
     print(f"#{tc} {min_V}")
